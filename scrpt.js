@@ -46,13 +46,13 @@ const checkWin = () => {
 
             isGameOver = true;
 
-           if (winner === "X") {
-    music.play();
-   document.querySelector(".imgbox img").style.width = "80px";
-} else {
-    gameover.play();
-    document.querySelector(".imgbox img").style.width = "0px";
-}
+            if (winner === "X") {
+                music.play();
+                document.querySelector(".imgbox img").style.width = "80px";
+            } else {
+                gameover.play();
+                document.querySelector(".imgbox img").style.width = "0px";
+            }
         }
     });
 };
@@ -181,3 +181,6 @@ reset.addEventListener("click", () => {
 
     document.querySelector(".imgbox img").style.width = "0px";
 });
+
+
+
